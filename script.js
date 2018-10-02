@@ -13,8 +13,7 @@ $(document).on('click','.js-more-link-worker', function (e) {
 	}
 	var next_Page = current_Page+1;
 	var name = parseInt(_this.data('name'));
-	var path_in_href = _this.attr('href');
-	var path = document.location.pathname + path_in_href;
+	var path = document.location.pathname;
 	console.log(next_Page);
 	console.log(count);
 	console.log(current_Page);
