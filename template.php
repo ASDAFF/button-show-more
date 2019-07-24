@@ -12,7 +12,7 @@ if ($_REQUEST['is_ajax_nav']){
 }
 
 //САМА КНОПКА
-<?if (($arResult['ELEMENT_COUNT'] - ($arResult['PAGE_NUMBER'] * $arParams['NEWS_COUNT'])) > 0)
+<?if ($arResult["NavPageCount"] > 1) > 0)
 {?>
 	<div class="page__p-more">
 		<a href=""
